@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+$font-family-sans-serif: 'PT Sans', sans-serif;
+
+$primary: #6b707a;
+$secondary: #e8e9df;
+$success: #61a969;
+$info: #8ea998;
+$warning: #dc9836;
+$danger: #f55a4e;
+// $light
+// $dark
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
