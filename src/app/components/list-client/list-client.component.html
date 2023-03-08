@@ -2,11 +2,11 @@
     <div class="card">
         <div class="card-body">
             <span class="h3">Listado de clientes</span>
-            <button class="btn btn-dark btn-lg float-end"><i class="fa-solid fa-person-circle-plus"></i> Adicionar cliente</button>
+            <button class="btn btn-dark btn-lg float-end" routerLink="/createClient"><i class="fa-solid fa-person-circle-plus"></i> Adicionar cliente</button>
             <table class="table mt-4">
                 <thead>
                   <tr>
-                    <th>Num Documento</th>
+                    <th>Num</th>
                     <th>Nombre</th>
                     <th>Apellido</th>
                     <th>Fecha de ingreso</th>
@@ -20,8 +20,8 @@
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td>
-                      <i class="fa-regular fa-pen-to-square fa-lg text-info mx-3"></i>
-                      <i class="fa-regular fa-trash-can fa-lg text-danger"></i>
+                      <i type="button" class="fa-regular fa-trash-can fa-lg text-danger"></i>
+                      <i type="button" class="fa-regular fa-pen-to-square fa-lg text-info mx-2" data-bs-toggle="tooltip" data-bs-placement="top" data-bs-title="This top tooltip is themed via CSS variables."></i>
                     </td>
                   </tr>
                 </tbody>
@@ -29,3 +29,5 @@
         </div>
     </div>
 </div>
+
+
